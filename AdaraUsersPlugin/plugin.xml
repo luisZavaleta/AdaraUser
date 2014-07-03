@@ -1,0 +1,21 @@
+<plugin name='adara-users-plugin' version='0.1' grailsVersion='1.3.7 &gt; *'>
+  <author>LuisZavaleta</author>
+  <title>Plugin summary/headline</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/adara-users-plugin</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>adarausersadministrator.AdaraRelationsController</resource>
+    <resource>adarausersadministrator.LocalizationController</resource>
+    <resource>adarausersadministrator.RestController</resource>
+    <resource>adarausersadministrator.AdaraRelations</resource>
+    <resource>adarausersadministrator.Localization</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
